@@ -18,6 +18,7 @@ namespace errors_check.Controllers
             _logger = logger;
         }
 
+        //Controller For wether
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

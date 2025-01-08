@@ -34,7 +34,7 @@ namespace errors_check
 
             app.UseAuthorization();
 
-
+            //Middlware for controllers
             app.MapControllers();
 
             app.Run();
